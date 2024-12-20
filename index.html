@@ -4,115 +4,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
+  <!-- Displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="./style.css">
   <title>Frontend Mentor | Product list with cart</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
-
-  <h1>Welcome to Our Dssert Shop Desserts</h1>
+  <header>
+    <h1>Welcome to Our Dessert Shop</h1>
+  </header>
 
   <main>
-    <section>
+    <!-- Product List Section -->
+    <section class="products">
       <h2>Desserts</h2>
       <div class="product">
         <img src="./assets/images/image-waffle-thumbnail.jpg" alt="Waffle with Berries">
         <h3>Waffle with Berries</h3>
-        <p>Waffle</p>
+        <p>Category: Waffle</p>
         <p>Price: $6.50</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
-
       <div class="product">
         <img src="./assets/images/image-creme-brulee-thumbnail.jpg" alt="Vanilla Bean Créme Brulee">
         <h3>Vanilla Bean Crème Brûlée</h3>
         <p>Category: Crème Brûlée</p>
         <p>Price: $7.00</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
-
       <div class="product">
-        <img src="./assets/images/image-macaron-thumbnail.jpg" alt="">
+        <img src="./assets/images/image-macaron-thumbnail.jpg" alt="Macaron Mix of Five">
         <h3>Macaron Mix of Five</h3>
         <p>Category: Macaron</p>
         <p>Price: $8.00</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
 
       <div class="product">
         <img src="./assets/images/image-tiramisu-thumbnail.jpg" alt="Classic Tiramisu">
         <h3>Classic Tiramisu</h3>
-        <P>Tiramisu</P>
-        <P>Price: $5.50</P>
-        <button>Add to Cart</button>
+        <p>Category: Tiramisu</p>
+        <p>Price: $9.00</p>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
 
       <div class="product">
-        <img src="./assets/images/image-baklava-thumbnail.jpg" alt="">
+        <img src="./assets/images/image-baklava-thumbnail.jpg" alt="Pistachin Backlava">
         <h3>Pistachio Baklava</h3>
         <p>Category: Baklava</p>
         <p>Price: $4.00</p>
-        <button>Add to Cart</button>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
 
       <div class="product">
-        <img src="./assets/images/image-meringue-thumbnail.jpg" alt="Lemon Meringue Pie">
+        <img src="./assets/images/image-meringue-desktop.jpg" alt="Lemon Meringue Pie">
         <h3>Lemon Meringue Pie</h3>
         <p>Category: Pie</p>
-        <p>Price $5.00</p>
-        <button>Add to Cart</button>
+        <p>Price: $5.00</p>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
 
       <div class="product">
         <img src="./assets/images/image-cake-thumbnail.jpg" alt="Red Velvet Cake">
-        <h3>Red Velvet Cake</h3>
-        <p>Category: Cake</p>
-        <p>Price: $4.50</p>
-        <button>Add to Cart</button>
+        <h3>Strawberry Cheesecake</h3>
+        <p>Category: CheeseCake</p>
+        <p>Price: $6.00</p>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
 
       <div class="product">
-        <img src="./assets/images/image-brownie-thumbnail.jpg" alt="Salted Caramel Brownie">
-        <h3>Salted Caramel Brownie</h3>
+        <img src="./assets/images/image-brownie-thumbnail.jpg" alt="Glazed Donut">
+        <h3>Chocolate Brownie</h3>
         <p>Category: Brownie</p>
-        <p>Price: $4.50</p>
-        <button>Add to Cart</button>
+        <p>Price: $3.50</p>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
 
       <div class="product">
-        <img src="./assets/images/image-panna-cotta-thumbnail.jpg" alt="Vanilla Panna Cotta">
-        <h3>Vanilla Panna Cotta</h3>
-        <p>Category: Panna Cotta</p>
-        <p>Price: $6.50</p>
-        <button>Add to Cart</button>
+        <img src="./assets/images/image-panna-cotta-thumbnail.jpg" alt="Chocolate Muffin">
+        <h3>Vanilla Ice Cream</h3>
+        <p>Category: Ice Cream</p>
+        <p>Price: $2.50</p>
+        <button class="add-to-cart">Add to Cart</button>
       </div>
-    </section>
 
-    <aside class="cart">
-      <h2>Your Cart</h2>
-      <p>Your added items will appear here</p>
-    </aside>
+      <!-- Add more products as needed -->
+
+      <aside class="cart">
+        <h2>Your Cart</h2>
+        <p>Your added items will appear here.</p>
+      </aside>
+    </section>
   </main>
 
   <footer>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Proyecto hecho por Bastian Eduardo Silva Bustos</a>.
+      Coded by <a href="#">Bastian Eduardo Silva Bustos</a>.
     </div>
   </footer>
 </body>
